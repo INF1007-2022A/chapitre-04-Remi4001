@@ -5,7 +5,7 @@
 def is_even_len(string: str) -> bool:
     if len(string) % 2 == 0:
         return True
-    else
+    else:
         return False
 
 
@@ -16,7 +16,7 @@ def remove_third_char(string: str) -> str:
         if i == 2:
             new_string += string[i+1:]
             break
-        else
+        else:
             new_string += string[i]
     return new_string
 
@@ -27,7 +27,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     for i in range(len(string)):
         if string[i] == old_char:
             new_string += new_char
-        else
+        else:
             new_string += string[i]
     return new_string
 
